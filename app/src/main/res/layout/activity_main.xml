@@ -30,6 +30,10 @@
         android:text="Add Todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnDeleteDoneTodos"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:backgroundTint="#03A9F4"
+        android:layout_marginEnd="10dp"
+        android:textSize="16dp"
         />
 
     <Button
@@ -38,5 +42,7 @@
         android:layout_height="wrap_content"
         android:text="Delete done"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textStyle="italic"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
